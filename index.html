@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>main첫페이지</title>
     <link rel="stylesheet" href="stylejs.css">
+    <style>
+      #mv{ z-index: -1; width: 100%; height: 100%; object-fit: cover;}
+    </style>
  </head>
   <body>
     <main id="home">
@@ -22,9 +25,10 @@
           </nav>
         </div>
       </header>
+      <video id="mv" src="m.mp4" autoplay muted loop type="video/mp4"></video>
       <div class="hero">
-        <h1>Welcome to my portfolio.</h1>
-        <h2>creative works</h2>
+        <h1>Learning by doing, designing by heart</h1>
+        <h2></h2>
       </div>
     </main>
 
@@ -38,7 +42,7 @@
     <h2 class="title">Design Edit</h2>
     <div class="gallery">
       <div class="box" onclick="openModal('project1')">
-        <img src="../img/portfolio/box.jpg" alt="프로젝트 1" class="thumbnail">
+        <img src="img/portfolio/box.jpg" alt="프로젝트 1" class="thumbnail">
         <p> SNS BANNER </p>
       </div>
       <div class="box" onclick="openModal('project2')">
@@ -86,12 +90,11 @@
         </div>
         <div class="wp-right">
           <h3> Ooo Ebook Publishing </h3>
-          <p> <b> Period </b>: 2025. 04. 04 </p>
+          <p> <b> Period </b>: 2025. 09. 09 </p>
           <p> <b> Type :</b> epub file </p>
           <p> <b> Output :</b> Sigil, photoshop, xhtml, css </p>
           <p> <b> OVERVIEW :</b></p>
-          <p> 최소한의 루틴으로 그 본연의 가치를 살리려는 노력, 진정한 아름다움을 위해 브랜드를 운영하는 company,
-            'ooo라는 슬로건으로 ooo의 도전 정신을 사이트에 담아보았습니다.
+          <p> 여백과 정돈된 구조로 릴케 시의 고요한 정서를 표현한 Ebook 디자인
           </p>
         </div>
       </div>
@@ -103,12 +106,12 @@
         <div class="wp-left">
           <img src="img/portfolio/shop.jpg">
           <p> <a href="shopedit.pdf" class="btn">  기획서 보기  </a>
-              <a href="https://id.cafe24.com" class="btn"> Shoppingmal View </a>
+              <a href="https://yeon777001.cafe24.com" class="btn"> Shoppingmal View </a>
           </p>
         </div>
         <div class="wp-right">
           <h3>Shoppingmal Publishing </h3>
-          <p> <b> Period </b>: 2027. 02. 02 </p>
+          <p> <b> Period </b>: 2025. 08. 08</p>
           <p> <b> Type :</b> web </p>
           <p> <b> Output :</b> cafe24, photoshop </p>
           <p> <b> OVERVIEW :</b></p>
@@ -122,7 +125,7 @@
   
     <!-- 연락처 섹션 -->
     <footer id="contact">
-      <p>© 2025 My Portfolio | 이메일: myemail@example.com</p>
+      <p>© 2025 My Portfolio | 이메일: yeon040777@naver.com</p>
       <ul class="social-links">
         <li><a href="#">Phone</a></li>
         <li><a href="#">GitHub</a></li>
