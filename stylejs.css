@@ -28,7 +28,7 @@ html {
 main {
   height: 100%;
   background-color: azure;
-  background: url(img/main.jpg) no-repeat center/cover;
+  background: url(img/portfolio/main.jpg) no-repeat center/cover;
   position: relative;
 }
 
@@ -71,14 +71,17 @@ header {
 
 .hero {
   position: absolute;
-  top: 70%;
+  top: 88%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
+  padding: 6rem 0;
+
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -115,7 +118,7 @@ section {
 }
 
 .box {
-  width: 23%;  /* 6개 이하일때는 30% */
+  width: 30%;  /* 6개 이하일때는 30% */
   cursor: pointer;
   border: 0px solid #ddd;
 }
@@ -138,7 +141,7 @@ section {
 
 /* 프로젝트2 웹포플 */
 #project2 {
-  padding-top: 400px;
+  padding-top: 6rem;
 }
 
 .web-project {
@@ -189,7 +192,9 @@ section {
 
 #contact {
   text-align: center;
-  padding-top: 20rem;
+ padding: 8rem 0;
+ position: relative;
+ z-index: 1;
 }
 
 #contact li {
