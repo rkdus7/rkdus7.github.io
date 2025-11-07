@@ -6,29 +6,29 @@ const projects = {
     description: '이 프로젝트는 프로모션 배너 디자인입니다. 브랜드의 메세지를 효과적으로 전달하면서도, 시각적으로 완성도 높은 디자인으로 홍보 효과를 극대화 했습니다.'
   },
   project2: {
-    title: 'Edit Design Project 2',
-    image: 'img/portfolio/let.jpg',
-    description: '레터링 디자인 프로젝트로, 타이포그래피를 중심으로 한 비주얼 아이덴티티 작업입니다.'
+    title: 'PACKAGE DESIGN Project 2',
+    image: 'img/portfolio/pack.jpg',
+    description: '애사비 스틱 패키지 디자인으로 간결하면서도 모던한 느낌과 컬러로 브랜드의 이미지를 강조했습니다.'
   },
   project3: {
-    title: 'Edit Design Project 3',
-    image: 'img/portfolio/name.png',
-    description: '네이밍과 로고 디자인을 통합한 브랜딩 프로젝트입니다.'
+    title: 'EDETAIL PAGE Project 3',
+    image: 'img/portfolio/name2.png',
+    description: '아몬드 브리즈의 산뜻하고 건강한 이미지를 담아, 가볍게 즐길 수 있는 브랜드 감성을 표현한 상세페이지 디자인입니다.'
   },
   project4: {
-    title: 'Edit Design Project 4',
-    image: 'img/portfolio/logo1.png',
-    description: '기업 로고 디자인 프로젝트로, 브랜드의 정체성을 명확히 표현했습니다.'
+    title: 'LEAFLET DESIGN Project 4',
+    image: 'img/portfolio/p4.jpg',
+    description: '클래식 공연의 품격과 예술적 감성을 담아 세련된 분위기로 완성한 리프렛 디자인입니다.'
   },
   project5: {
-    title: 'Edit Design Project 5',
-    image: 'img/portfolio/logo1.png',
-    description: '모던하고 세련된 로고 디자인으로 브랜드 가치를 높였습니다.'
+    title: 'BROCHURE DESIGN Project 5',
+    image: 'img/portfolio/p5.jpg', 
+    description: '인천공항의 공간과 서비스를 감각적으로 담아, 세련된 잡지형 구성으로 완성한 브로슈어 디자인입니다.'
   },
   project6: {
-    title: 'Edit Design Project 6',
-    image: 'img/portfolio/logo1.png',
-    description: '심볼과 로고타입을 결합한 통합 브랜딩 디자인입니다.'
+    title: 'POSTER DESIGN Project 6',
+    image: 'img/portfolio/p6.jpg',
+    description: '봄의 따스한 감성과 설렘을 담아, 벚꽃 축제의 분위기를 감각적으로 표현한 포스터 디자인입니다.'
   }
 };
 
